@@ -1,0 +1,49 @@
+/* selecionando o mesmo elemento */
+
+NOME_DO_ELEMENTO {
+
+}
+
+
+#ID_DO_ELEMENTO {
+
+}
+
+.CLASS_DO_ELEMENTO {
+
+}
+
+ELEMENTO, OUTROELEMENTO {
+
+}
+
+ELEMENTO_OUTROELEMENTO{
+    
+}
+
+
+img {
+    background-repeat: no-repeat;
+}
+
+#titulo {
+    font-weight: 49px;
+}
+
+.texto {
+   font-weight: 49px;
+}
+
+
+#titulo, .texto {
+    color: blue;
+    font-size: 12px;
+}
+
+
+ul li {
+    color:aqua;
+}
+
+
+
