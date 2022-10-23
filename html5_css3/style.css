@@ -1,0 +1,17 @@
+    /* CSS EXTERNO */
+    h1 { 
+         color: blue;
+         font-size: 15px;
+        }
+    a {
+        color: green;
+
+    }
+    img {
+        width: 200px;
+    }
+    
+    li {
+        font-weight: 100;
+        color: blueviolet;
+    }
