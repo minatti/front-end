@@ -34,4 +34,12 @@ body {
     }
 
 
+@media only print {
+    h1{
+        font-size: 20px;
+        font-weight: normal;
+        background-color: whitesmoke;
+    }
+}
+
 }
