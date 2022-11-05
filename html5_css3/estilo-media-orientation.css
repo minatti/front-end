@@ -1,0 +1,31 @@
+/* aplicar media em objetos na vertical/horizontal */
+
+body {
+    display: flex;
+}
+
+div {
+    
+    height: 100px;
+    width: 100px;
+    border: 2px solid #ff0070;
+
+}
+
+
+/* Landscape serve para manipular na horizontal */
+@media (orientation: landscape) {
+    body {
+        flex-direction: row;
+    }
+
+}
+
+/* Landscape serve para manipular na vertical */
+
+@media (orientation: portrait)   {
+    body {
+        flex-direction: column;
+    }
+
+}
