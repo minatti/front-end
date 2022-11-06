@@ -1,14 +1,9 @@
-start the project default
+LIST ALL COURSES
 
-create new repository
+1. HTML5/CSS3
+2. JAVASCRIPT
+3. 
 
-git init
-git add Readme.md
-git commit - m "prim commitada"
-git remote add origin "git@github.com:Minatti/front-end.git"
-git push -u origin mybranch = development
 
-push
 
-git remote add origin 
-git push -u origin master
+
