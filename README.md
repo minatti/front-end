@@ -1,4 +1,4 @@
-<h1 align="center" styled="color: yellowgreen;">CARMINATTI ESTUDOS</h1>
+<h1 align="center" style="color: yellowgreen;">CARMINATTI ESTUDOS</h1>
 
 
 [Lista de Cursos](#lista-cursos)
