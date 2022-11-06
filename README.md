@@ -2,8 +2,4 @@ LIST ALL COURSES
 
 1. HTML5/CSS3
 2. JAVASCRIPT
-3. 
-
-
-
-
+3.
