@@ -1,0 +1,23 @@
+:root {
+
+    --bg-color: #000;
+    --bg-second: #444;
+    /*--font-color: #FFF; */
+
+}
+
+body {
+    background-color: var(--bg-color);
+}
+
+h1 {
+    color: var(--font-color, #FF1);
+}
+
+
+.container {
+    background-color: var(--bg-second);
+    color: var(--font-color);
+}
+
+
