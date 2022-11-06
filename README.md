@@ -1,11 +1,14 @@
-<h1 align="center" styled="color: darkgray;"> Cursos </h1>
+<h1 align="center" styled="color: darkgray;"> BASE DE CONHECIMENTO</h1>
 
-[Lista de Cursos](#lista-cursos)*
 
-1. HTML5/CSS3
-2. JAVASCRIPT
-3.
+[Lista de Cursos](#lista-cursos)
 
-[Tecnologias utilizadas](#tecnologias-utilizadas)*
+<ul>
+    <li>° HTML5/CSS3<li>
+    <li>° JAVASCRIPT<li>
+<ul>
+
+
+[Tecnologias utilizadas](#tecnologias-utilizadas)
 
 
