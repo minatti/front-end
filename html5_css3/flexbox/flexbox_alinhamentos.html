@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox</title>
+    <style type="text/css">
+        .container {
+            display: flex;
+            height: 500px;
+            flex-direction: row;
+            justify-content: space-between;
+            background-color: #DDDDDD;
+        }
+
+        .container div {
+            width: 100px;
+            height: 100px;
+            background-color: #FF0000;
+            margin: 10px;
+            padding: 10px;
+            font-size: 18px;
+        }
+
+        /* 
+        flexbox props
+
+        align-content: stretch|center|flex-start|flex-end|space-between|space-around|space-evenly|initial|inherit;
+        align-items: stretch|center|flex-start|flex-end|baseline|initial|inherit;
+        display: flex|value;
+        flex-direction: row, row-reverse, column, column-reverse
+        flex-flow: row-rever wrap, nowrap(default), wrap-reverse, initial, inherit
+        flex-wrap: nowrap|wrap|wrap-reverse|initial|inherit;
+        justify-content: flex-start, flex-end, space-between, space-around 
+        
+        */
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+    </div>
+</body>
+</html>
