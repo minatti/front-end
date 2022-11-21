@@ -19,17 +19,55 @@ header {
 
 
 .logo{
-    background-color: #DDD;
     display: flex;
     align-items: center;
 }
 .pbi {
     display: flex;
     justify-content: flex-start;
-    width: 120px;
-    height: 80px;
+    width: 100px;
+    height: 70px;
     object-fit: cover;
 }
 .menu {
-    
+    display: flex;
+    align-items: center;
+}
+
+nav ul, 
+nav li {
+    list-style: none;
+    margin:0;
+    padding:0;
+}
+nav ul {
+    display: flex;
+}
+
+nav a {
+    display: block;
+    padding: 15px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #003;
+    font-family: arial;
+/* 
+#d97f04 
+#f1a304
+*/
+}
+
+nav .active a,
+nav a:hover {
+    background-color: #fcdf63;
+    color: #FFF;
+   
+}
+
+#banner {
+    background-image:url('../images/###');
+    background-position:center;
+    background-size:cover;
+    background-repeat: no-repeat;
+    height: 400px;
 }
