@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    height: 120px;
+}
+
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    width: 990px;
+    background-color: #fff;
+}
+
+
+.logo{
+    background-color: #DDD;
+    display: flex;
+    align-items: center;
+}
+.pbi {
+    display: flex;
+    justify-content: flex-start;
+    width: 120px;
+    height: 80px;
+    object-fit: cover;
+}
+.menu {
+    
+}
