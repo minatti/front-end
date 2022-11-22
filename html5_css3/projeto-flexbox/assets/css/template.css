@@ -6,14 +6,14 @@ body {
 header {
     display: flex;
     justify-content: center;
-    height: 120px;
+    height: 75px;
 }
 
 
 .container {
     display: flex;
     justify-content: space-between;
-    width: 990px;
+    width: 1280px;
     background-color: #fff;
 }
 
@@ -65,9 +65,21 @@ nav a:hover {
 }
 
 #banner {
-    background-image:url('../images/###');
-    background-position:center;
-    background-size:cover;
+    background-image:url('../images/linescrazt.jpg');
+    background-position:top;
     background-repeat: no-repeat;
-    height: 400px;
+    background-size: cover;
+    background-origin: content-box;
+    background-blend-mode: luminosity;
+    height: 460px;
+    object-fit: cover;
+}
+
+
+.dev {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #fff;
+    height: 300px;
 }
