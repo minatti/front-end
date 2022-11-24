@@ -12,9 +12,8 @@ header {
 
 .container {
     display: flex;
-    justify-content: space-between;
-    width: 1280px;
-    background-color: #fff;
+    justify-content:space-between;
+    width:1280px;
 }
 
 
@@ -24,9 +23,9 @@ header {
 }
 .pbi {
     display: flex;
-    justify-content: flex-start;
+    justify-content: flex-end;
     width: 100px;
-    height: 70px;
+    height: 50px;
     object-fit: cover;
 }
 .menu {
@@ -60,26 +59,75 @@ nav a {
 nav .active a,
 nav a:hover {
     background-color: #fcdf63;
-    color: #FFF;
+    color: #001;
    
 }
 
 #banner {
+    display: flex;
+    justify-content: center;
     background-image:url('../images/linescrazt.jpg');
-    background-position:top;
-    background-repeat: no-repeat;
+    background-position:center;
+    background-repeat: no-repeat; 
     background-size: cover;
-    background-origin: content-box;
     background-blend-mode: luminosity;
-    height: 460px;
-    object-fit: cover;
+    height: 680px;
+}
+
+.column {
+    flex-direction: column;
 }
 
 
-.dev {
+.banner_headline {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 400px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: #0005;
+}
+
+
+.banner_headline h1 {
+    color: #FFF;
+    font-size: 35px;
+    font-family: Arial;
+    text-shadow: 0px 1px 0px #555;
+    width: 200px;
+}
+
+.banner_headline h2 {
+    color: #FFF;
+    font-size: 20px;
+    text-shadow: 0px 1px 0px #555;
+    margin-left: 20px;
+}
+
+.banner_options {
+    /* flex: 1; */
+    /* background-color: #001; */
+    height: 200px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+/* .dev {
     display: flex;
     align-items: center;
     justify-content: space-between;
     background-color: #fff;
     height: 300px;
-}
+} */
+
