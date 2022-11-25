@@ -125,16 +125,16 @@ nav a:hover {
 
 
 .banner1 {
-    background-color:rgb(57, 57, 59);
+    background-color: #999999;
     
 }
 
 .banner2 {
-    background-color: rgb(53, 54, 54);
+    background-color: #777777;
 }
 
 .banner3 {
-    background-color: rgb(100, 99, 110);
+    background-color: #555555;
 }
 
 
@@ -142,11 +142,38 @@ nav a:hover {
     font-size: 21px;
 }
 
-.banner_desc {
-    font-size: 12px;
-    margin-top: 20px;
-    margin-bottom: 20px;
+
+.title {
+    display: flex;
+    justify-content: center;
+    font-size: 21px;
+    font-family: Arial;
 }
+
+.hours {
+    font-family: Arial;
+    font-size: 16px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.line {
+    padding: 15px;
+    border-bottom: 2px groove #d9d9d9;
+}
+
+.informations {
+    font-family: Arial;
+    font-size: 16px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-top: 20px;
+}
+
+
 
 .banner_options a {
     display: inline-block;
@@ -164,18 +191,4 @@ nav a:hover {
     border: 0.5px solid #001;
 }
 
-
-
-
-
-
-
-
-/* .dev {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    background-color: #fff;
-    height: 300px;
-} */
 
