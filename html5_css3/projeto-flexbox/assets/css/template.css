@@ -191,4 +191,39 @@ nav a:hover {
     border: 0.5px solid #001;
 }
 
+.flex-container {
+    display: flex;
+    height: 400px;
+    
+}
 
+#main section {
+    flex: 2;
+    background-color: brown;
+}
+
+#main aside {
+    flex: 1;
+    background-color: #003;
+    /*opacity: 0.6;*/
+}
+
+
+.dash_title {
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.dash_title_text {
+    color:whitesmoke;
+    font-size: 21px;
+    font-family: Arial;
+    font-weight: bold;
+}
+
+.dash_line_title {
+    width: 50px;
+    height: 5px;
+    background-color: #fcdf63;
+    margin-top: 5px;
+}
