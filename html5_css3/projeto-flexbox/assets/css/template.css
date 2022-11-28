@@ -12,8 +12,8 @@ header {
 
 .container {
     display: flex;
-    justify-content:space-between;
-    width:1280px;
+    justify-content: space-between;
+    width: 980px;
 }
 
 
@@ -191,20 +191,22 @@ nav a:hover {
     border: 0.5px solid #001;
 }
 
-.flex-container {
+
+#main {
     display: flex;
-    height: 400px;
-    
+    justify-content: center;
 }
 
 #main section {
     flex: 2;
-    background-color: brown;
+    width: 720px;
+    /*background-color: brown;*/
 }
 
 #main aside {
     flex: 1;
-    background-color: #003;
+    width: 360px;
+    /*background-color: #003;*/
     /*opacity: 0.6;*/
 }
 
@@ -215,7 +217,7 @@ nav a:hover {
 }
 
 .dash_title_text {
-    color:whitesmoke;
+    color: #001;
     font-size: 21px;
     font-family: Arial;
     font-weight: bold;
@@ -227,3 +229,41 @@ nav a:hover {
     background-color: #fcdf63;
     margin-top: 5px;
 }
+
+.dash_text {
+    color: #001;
+    font-size: medium;
+    font-family: Arial;
+    font-style: italic;
+}
+
+.dash_content {
+    background-color: #FFF;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 120px;
+    margin-top: 10px;
+}
+  
+ .item {
+    display: flex;
+    background-color: darkgray;
+    color: #fff;
+ }
+ 
+ .item1{
+    height: 120px;
+    width: 150px;
+ }
+
+
+ .item2{
+    height: 120px;
+    width: 150px;
+ }
+
+ .item3{
+    height: 120px;
+    width: 150px;
+ }
