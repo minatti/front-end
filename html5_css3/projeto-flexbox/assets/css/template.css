@@ -1,6 +1,7 @@
 body {
     margin: 0;
     padding: 0;
+    background-color: #fff;
 }
 
 header {
@@ -125,12 +126,11 @@ nav a:hover {
 
 
 .banner1 {
-    background-color: #999999;
-    
+    background-color: #777777;
 }
 
 .banner2 {
-    background-color: #777777;
+    background-color: #2e2e2e;
 }
 
 .banner3 {
@@ -337,12 +337,18 @@ footer {
     display: flex;
     justify-content: center;
     background-color: #1e1e1e;
-    margin-bottom: 300px;
 }
 
 
 .footer_menu {
     display: flex;
+
+}
+
+
+.footer_menu a {
+    display: block;
+    text-decoration: none;
 }
 
 .fm_1, .fm_2, .fm_3 {
@@ -353,12 +359,12 @@ footer {
 
 
 .fm_1 {
-    background-color: #999999;
+    background-color: #777777;
     
 }
 
 .fm_2 {
-    background-color: #777777;
+    background-color: #2e2e2e;
 }
 
 .fm_3 {
@@ -372,7 +378,12 @@ footer {
 .footer_areaitem {
     color: #FFF;
     flex: 1;
+    
 
+}
+
+.borderline {
+    border-left: 1px solid whitesmoke;
 }
 
 .flex_column {
@@ -396,14 +407,15 @@ footer .company_line, .post_line, .insta_line {
     width: 50px;
     height: 5px;
     background-color: #fcdf63;
-    margin-top: 5px;
+    margin-top: 10px;
 }
 
 footer .company_text, .post_text, .insta_text {
     color: darkgray;
     font-size: 14px;
     font-family: Arial;
-    margin-top: 20px;
+    margin-top: 2px;
+    margin-bottom: 2px;
 }
 
 footer .extract_title {
@@ -425,8 +437,19 @@ footer .extract_desc {
 }
 
 footer a {
+    width: 100px;
+    padding: 5px;
+    margin: 5px;
+    display: block;
     text-decoration: none;
-    color: black;
+    border: 0.5px solid #fcdf63;
+    color: darkkhaki;
+}
+
+footer a:hover {
+    color: #000;
+    background-color: #fcdf63;
+    border: 0.5px solid #001;   
 }
 
 
@@ -465,4 +488,30 @@ footer .loading_desc {
     font-family: Arial;
     margin-top: 20px;
     margin-bottom: 20px;
+}
+
+.footer_copy {
+    border-top: 1px solid #fcdf69;
+    height: 30px;
+    line-height: 40px;
+    color: whitesmoke;
+    font-size: 12px;
+
+}
+
+
+.fdate {
+    color: #00ABF1;
+    margin-bottom: 50px;
+    font-style: italic;
+
+}
+.ftext {
+    color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 10px;
+    font-style: italic;
+    font-size: 14px;
+    text-align: left;
+    line-height: 20px;
 }
