@@ -1,0 +1,134 @@
+LINK: https://www.tabnews.com.br/MatheusManuel/5-sites-para-treinar-o-front-end
+
+🎈Sites com desafios front end
+
+Dev challenges -Desafios focados em projetos e práticas da vida real.
+Code Well - Desafios para aprimorar suas habilidades em html e css que você pode navegar por modelos Figma de alta qualidade
+Front end Pratice - Desafios para elevar suas habilidades de front-end,recriando sites reais de empresas reais
+Ace Front End - Desafios de programação Front-end. Resultados via texto.
+AdventoOfCode - Desafios de programação por temporada.
+App Ideas - Compilado de desafios para você testar seus conhecimentos e aumentar seu portfólio
+CodePen Challenges - Desafios de Programação Front-end.
+Codier - Desafios de Programação Front-end, análise dos resultados feita pela comunidade.
+CSS Battle - Batalhas temporárias de CSS.
+DevChallenge - Site com desafios de front-end, back-end e mobile
+Flex Box Defense - Desafio de Programação Front-end focados na propriedade flex box.
+Flex Box Froggy - Desafio de Programação Front-end focados na propriedade flex box.
+Front End Challanged Club - Bogs com desafios de programação front-end
+Frontend Challengens - Repositório no GitHub com vários desafios solicitados reais solicitados por empresas
+Frontend Mentor - Desafios de Programação Front-end, análise dos resultados feita pela comunidade, sem IDE integrada
+BR Challenge - Desafios front end
+
+🎈Geradores css
+
+Neumorphism - Gerador de sombras + border radius com efeito Neumorphism
+Fancy Border-Radius - Gerador de formas com border-radius no CSS
+WAIT! Animate - Gerador de animações de CSS
+Best CSS Button Generator - Gerador de butões do CSS
+HTML CSS JS Generator - Gerador de HTML/CSS/JS
+BennettFeely - Criador de clip-path
+Animista - Gera animações css incrivéis com o código css pronto
+Gradient css - Gerador de cores gradientes css/sass
+Image Slider Maker - Geras slides/carrousel de uma forma rápida
+Shape Dividers - Gera divisores de formas verticais, responsivos, e animados facilmente com este gerador de divisores de formas SVG
+Couleur - Uma ferramenta de cores simples para ajudá-lo a encontrar uma boa paleta de cores para seu projeto da web)
+Baseline CSS Filters - 36 Belos filtros de fotos, com edição simples e CSS para copiar)
+Naevner - Descrição de cores em linguagem natural, gerador de códigos em cores hexadecimais)
+Gradientoa - Gerador de cores gradientes
+Color Space
+
+🎈Sites de ícones
+
+DrawKIT
+Eva Icons
+Feather Icons
+Font Awesome
+Heroicons
+Iconsvg
+Icons8 Line Awesome
+Icons8
+Shape
+Flaticon
+Bootstrap icons
+devicon
+phosphor icons
+Ionic IO
+🎈Extensões para o seu navegador
+GoFullPage - Capture uma captura de tela de sua página atual.
+Web Developer - Um conjunto enorme de funcionalidades que te ajudam no processo de desenvolvimento.
+React Developer Tools - debug de apps que utilizam ReactJS, e permite verificar componentes, suas props, seus hooks e seus componentes children.
+Window Resizer - Permite ver tamanhos de telas diferentes para os seus sites.
+Light house - Monstra o desempenho e a qualidade das suas páginas da web.
+ColorZilla - Conta gota para pegar qualquer cor que estiver dentro da página web
+CSS Peeper - Mostra informações da página e não só também mostra as cores usadas na página e permite exportar todas as imagens do site
+WhatFont - Mostra as propriedades tipograficas(fontes, tamanho da fonte e etc) dos elementos selecionados no site.
+Responive Viewer - Mostra várias telas do seu site de uma vez, testa a rensponsividade do site.
+JSON Viewer - Mostras as respostas JSON no navegador
+🎈Banco de imagens gratuitos
+DrawKIT
+Pixabay
+FlatIcon
+Flickr
+Pexels
+FreeImages
+FreePik Stories
+StockSnap
+unDraw
+Unsplash
+Freerange
+Glaze
+Gratisography
+Humaaans
+Nos.twnsnd
+OpenMoji
+PhotoPin
+Picjumbo
+Picsum
+Public domain archive
+RemixIcon
+Visual Hunt
+Wikimedia Commons
+Morguefile
+Lukas Zadam
+bgjar
+🎈Geradores de Paleta de cores
+Ui gradiente
+Couleur
+Colors and Fonts
+Coolors
+Colors lol
+Paletton
+Adobe Color
+Color Hunt
+Happy Hues
+Gradient Hunt
+Flat UI Colors
+Grabient
+Pigment
+WebGradient
+Color.lol
+Canva Color wheel
+Color lista
+Color Mind
+Color Space
+Color Tollo
+Brand Color
+Colors muz
+Color Hunter
+khroma
+Color Drop
+Color hailpixel
+
+🎈Sites para aprender programação de graça
+
+BitDegree - cursos gratuitos que vão desde programação a desenvolvimento de games
+Coursera
+Code academy
+Khan academy - A Khan Academy é uma das plataformas pioneiras no ensino à distância e gratuito de programação
+Code wars - Codewars é uma plataforma para quem gosta de desafios e busca refinar suas habilidades praticando e se aperfeiçoando com o tempo.
+Code org - Code.org é uma iniciativa para ensinar programação a crianças
+Free Code Camp - Ela oferece desafios diários, projecto e como premiação, certificados.
+W3Schools - O W3Schools vem equipado com tutoriais de programação, recursos, exemplos e exercícios para ajudar você a programar.
+Curso em vídeo
+Rocktseat Discover
+The odin project
