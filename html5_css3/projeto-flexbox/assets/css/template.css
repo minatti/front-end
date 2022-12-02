@@ -40,6 +40,7 @@ nav li {
     margin:0;
     padding:0;
 }
+
 nav ul {
     display: flex;
 }
@@ -97,7 +98,7 @@ nav a:hover {
     font-size: 35px;
     font-family: Arial;
     text-shadow: 0px 1px 0px #555;
-    max-width: 200px;
+    margin-left: 15px;
 }
 
 .banner_headline h2 {
@@ -206,6 +207,7 @@ nav a:hover {
 #main aside {
     flex: 1;
     width: 360px;
+    height: auto;
     /*background-color: #003;*/
     /*opacity: 0.6;*/
 }
@@ -237,7 +239,7 @@ nav a:hover {
     font-style: italic;
 }
 
-.dash_content {
+.dash_content, .analise_content{
     background-color: #FFF;
     display: flex;
     flex-direction: row;
@@ -251,22 +253,36 @@ nav a:hover {
     background-color: darkgray;
     color: #fff;
  }
+
+ .item_analise {
+    display: flex;
+    background-color: #555;
+    color: #fff;
+ }
  
  .item1{
     height: 120px;
     width: 150px;
  }
 
-
  .item2{
     height: 120px;
     width: 150px;
  }
 
- .item3{
-    height: 120px;
-    width: 150px;
- }
+.analise_footer {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    background-color: darkred;
+    height: 200px;
+}
+.format_text {
+    color: darkgray;
+    font-size: 10px;
+    text-align: left;
+    margin-left: 5px;
+}
+
 
 
  .flex {
