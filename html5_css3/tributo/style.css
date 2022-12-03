@@ -24,6 +24,7 @@ body {
 	opacity: 1.5px;
 }
 
+
  .persons-content {
 	flex: 1;
 	height: 400px;
@@ -32,6 +33,18 @@ body {
 	margin: 20px;
 }
 
+#menu-list li {
+	display: inline;
+	margin-left: 25px;
+	margin-right: 25px;
+}
+
+#menu-list a {
+	color: orange;
+	background-color: rgba(0, 0, 0, 0.57);
+	margin: 2px;
+	padding: 5px;
+}
 
 .informations-content {
 	flex: 1;
@@ -66,6 +79,7 @@ body {
 }
 
 .timeline-list {
+	margin-left: -30px;
 	color: #fff;
 }
 
@@ -76,6 +90,8 @@ button {
 	opacity: 0.8px;
 	border: 1px solid #fff;
 	border-radius: 5px 5px 5px 5px;
+	margin-left: 5px;
+	margin-top: 10px;
 }
 
 .go-to {
@@ -122,4 +138,5 @@ strong {
 
 ul li {
 	margin-top: 5px;
+	list-style-type: none;
 }
