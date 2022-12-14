@@ -12,27 +12,30 @@
         <div class="container">
             <aside>
                 <div class="container-midias">
-                    <div class="title"><h3>Entre em contato</h3></div>
                     <div class="area-maps">
-                        Area do mapa
-                        Endereco e etc
+                        <div class="maps">
+                            <div class="map-content">mapa aqui</div>
+                            <div class="map-address">mais informacoes aqui</div>
+                        </div>
                     </div>
-                    <div class="midias-sociais">
-                        <div class="title-midias">
-                            <h3>SIGA-NOS</h3>
-                        </div>
-                        <div class="body-midias">
-                            
-                        </div>
+                    <div class="body-midias">
+                        <div class="title-midia"><h3>SIGA-NOS</h3></div> 
+                        <div class="all-midias">
+                            <ul>
+                                <li><a href="#">Instagram</li></a>
+                                <li><a href="#">Linkedin</li></a>
+                                <li><a href="#">Whatsapp</li></a>
+                            </ul>
+                        </div>                   
                     </div>
                 </div>
             </aside>
             <section>
-                <div class="container-form">
+                <div class="container-form">        
                     <form class="form-contact">         
-                            <input type="text" id="IDNome" name="nome" placeholder="Digite seu Nome"   required="required"/>
-                            <input type="email" id="IDEmail" name="email" placeholder="Digite um e-mail válido"  />          
-                            <textarea placeholder="Envie sua mensagem..." maxlength="1000"></textarea>    
+                            <input type="text" id="IDNome" name="nome" placeholder="Digite seu Nome"   required/>
+                            <input type="email" id="IDEmail" name="email" placeholder="Digite um e-mail válido" required/>          
+                            <textarea placeholder="Envie sua mensagem..." maxlength="1000" required></textarea>    
                             <button type="submit" id="IDEnviar" onclick="Enviar();" value="Enviar">Enviar</button>                     
                       </form>
                 </div>

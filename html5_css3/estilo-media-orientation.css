@@ -21,7 +21,7 @@ div {
 
 }
 
-/* Landscape serve para manipular na vertical */
+/* portrait serve para manipular na vertical */
 
 @media (orientation: portrait)   {
     body {
