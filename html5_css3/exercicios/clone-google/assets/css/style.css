@@ -5,7 +5,7 @@
 }
 
 .container {
-    max-width: 1140px;
+    /* max-width: 1140px; */
     height: 40px;
     margin: auto;
     display: flex;
@@ -32,20 +32,29 @@ header {
 
 .menu ul {
     display: flex;
+    align-items: center;
 }
 
 .menu li a {
     color: rgba(0,0,0,.87);
     text-decoration: none;
     /* font-weight: 200; */
-    padding-left: 5px;
-    padding-right: 5px;
+    padding-left: 12px;
+    padding-right: 12px;
 }
 
 .menu li a:hover {
     text-decoration: underline solid #000;
 }
 
+.menu img {
+    height: 40px;
+    width: 40px;
+    background-repeat: no-repeat;
+    object-fit: contain;
+    border-radius: 50%;
+    margin-top: 14px;
+}
 
 section {
     max-width: 1140px;
@@ -119,33 +128,83 @@ button:hover {
 
 
 .wtf {
-  height: 182px;
+  height: 176px;
   display: flex;
   justify-content: flex-start;   
 }
 
 
 footer {
-    height: 90px;
+    height: 92px;
     margin: auto;
     display: flex;
     justify-content: flex-end;
-    background-color: #d9d9d9;
+    background-color: #eeeeee;
+    /* f3f6f4 */
 } 
 
 
-.area-items-left {
+.area-items {
     flex: 1;
     display: flex;
-    justify-content: flex-start;
+    flex-direction: column;
+    justify-content: space-evenly;
 }
 
-.area-items-left .item {
+
+.br {
+    flex: 1;
+    display: flex;
+    color: darkgrey;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-left: 25px;
+}
+
+.line {
+    border-bottom: 0.6px solid darkgray;
+}
+
+.items {
+    flex: 1;
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    padding: 5px;
+}
+
+
+.items ul,
+.items li,
+.items-right ul,
+.items-right li {
+    list-style: none;
+
+}
+
+.items ul {
+    display: flex;
+    align-items: flex-start;
+}
+
+.items-right ul {
+    display: flex;
+    align-items: flex-end;
+
+}
+
+
+
+.items li a {
     color: darkgray;
-    border-bottom: 1px solid #000;
+    padding-left: 15px;
+    padding-right: 15px;
+    text-decoration: none;
 }
 
-.area-items-left .items {
-    color: #FFF;
-    
+
+.items li a:hover {
+    text-decoration: underline;
 }
+
+
