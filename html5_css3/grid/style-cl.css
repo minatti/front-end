@@ -1,0 +1,29 @@
+.container {
+    display: grid;
+    grid-template-columns: 280px 600px auto;
+    grid-template-rows: 600px;
+    grid-gap: 5px;
+}
+
+.item {
+    background-color: darkred;
+    padding: 20px;
+    color: #FFF;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+.sub-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 280px 260px;
+    gap: 5px;
+}
+
+.sub-item {
+    background-color: #FFF;
+    padding: 20px;
+    color: #000;
+    border-radius: 10px;
+    font-size: 20px;
+}
