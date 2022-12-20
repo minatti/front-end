@@ -274,20 +274,24 @@ p .b7web, p .nice-page {
     background-color: #e8e9ee;
 }
 
+
 .area4--content {
     padding: 200px 80px;
 }
+
 
 .area4--text {
     margin-bottom: 42px;
     line-height: 25.6px;
 }
 
+
 .area4--img1 {
     background-image: url('../images/bg3.jpg');
     background-position: left;
 
 }
+
 
 .area5 {
     background-image: url('../images/bg4.jpg');
@@ -296,10 +300,131 @@ p .b7web, p .nice-page {
     height: 568px;
 }
 
+
+
 footer {
     padding: 80px;
     background-color: #333;
     color: #FFF;
     text-align: center;
-    height: 225px;
+    height: 120px;
 }
+
+
+
+@media (min-width: 769px) and (max-width: 1024px) {
+
+    /* body {background-color: orange;} */
+
+    .container {
+        margin-left: 20px;
+        padding: 5px;
+    }
+
+    .header--menu {
+        margin-left: 30px;
+        margin-right: 10px;
+    }
+    
+}
+
+@media (min-width: 250px) and (max-width: 768px) {
+
+    /* body {background-color: yellow;} */
+
+    .container {
+        margin-left: 20px;
+        padding: 5px;
+    }
+
+    .banner {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    h1 {
+        font-size: 42px;
+        line-height: 43px;
+        font-family: 'Opens Sans', 'sans-serif';
+    }
+
+    h2 {
+        font-size: 12px;
+        line-height: 20px;
+    }
+
+    span {
+        font-size: 20px;
+        text-align: left;
+        line-height: 10px;
+        margin-right: 10px;
+    }
+    .header--search input{
+        margin-left: 10px;
+        font-size: 12px;
+        padding: 8px 10px;
+        border: 1px solid #999999;
+        outline: 0;
+        width: 100%;
+        max-width: 120px;
+        border-radius: 5px;        
+    }
+    .header--menu {
+        margin-left: 15px;
+        margin-right: 10px;
+        margin-top: 1px;
+    }
+
+
+    .banner--images img {
+        width: 62px;
+        height: 62px;
+        border: 3px solid #117050;
+        border-radius: 50%;
+        margin-right: 5px;
+        margin-left: 8px;
+    }
+
+
+    .area1 {
+        display: grid;
+        grid-template-columns: 3fr 1fr;  
+    }
+
+    .area2 {
+        display: grid;
+        grid-template-columns: 8fr 1fr;  
+    }
+
+    .area3 {
+        display: grid;
+        grid-template-columns: 2fr 1fr;  
+    }
+
+    .area5 {
+        background-image: url('../images/bg4.jpg');
+        background-size: cover;
+        background-position: center;
+        height: 268px;
+    }
+    .area1--content {
+        padding: 50px;
+    }
+    .area2--content, .area3--content {
+        padding: 15px;
+    }
+    .area4--content {
+        padding: 80px 60px;
+    }
+
+    footer {
+        padding: 40px;
+        background-color: #333;
+        color: #FFF;
+        text-align: center;
+        height: 80px;
+    } 
+}   
+
+
+
