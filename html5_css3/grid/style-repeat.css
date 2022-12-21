@@ -1,0 +1,13 @@
+.container {
+    display: grid;
+    grid-template-columns: 100px repeat(3, 1fr) repeat(2, 200px);
+}
+
+
+.item {
+    background-color: darkred;
+    padding: 20px;
+    color: #FFF;
+    border-radius: 10px;
+    font-size: 20px;
+}
