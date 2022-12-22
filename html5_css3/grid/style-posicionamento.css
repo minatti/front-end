@@ -1,0 +1,23 @@
+.container {
+    height: 800px;
+    display: grid;
+    grid-template-columns: repeat(3, 200px);
+    grid-gap: 10px;
+    justify-content:   stretch;  //start, end, space-around 
+                                   e o resto é senior em pesquisar
+    /* align-items: center; */
+    grid-gap: 10px;
+    align-content: end;   
+    grid-auto-rows: 100px; 
+}
+
+
+.item {
+
+    background-color: darkred;
+    padding: 20px;
+    color: #FFF;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
