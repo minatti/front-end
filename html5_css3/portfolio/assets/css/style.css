@@ -207,12 +207,80 @@ header .menu--contact li a:hover {
     flex: 3;
     display: flex;
     align-items: flex-start;
-    height: 400px;
+    height: 300px;
+    /* background-color: #282a36; */
+    
 }
 
 
 
+.area--skills .skills {
+    flex: 0.7;
+    display: flex;
+    align-items: flex-start;
+    border: 2px solid #FF2021;
+    height: 276px;
+    padding: 30px 8px;
+    margin: 12px 20px;
+
+}
+
+.area--skills .skills .card--html {
+    flex: 0.4;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    border: 2px solid #1e1e1e;
+    margin: 0px 10px;
+    height: 220px;
+}
 
 
+.area--skills .skills .card--css {
+    flex: 0.4;
+    display: flex;
+    justify-content: center;
+    border: 2px solid #1e1e1e;
+    margin: 0px 10px;
+}
+
+.area--skills .skills .card--bootstrap {
+    flex: 0.4;
+    display: flex;
+    justify-content: center;
+    border: 2px solid #1e1e1e;
+    margin: 0px 10px;
+}
+
+.area--skills .skills .card--javascript {
+    flex: 0.2;
+    display: flex;
+    justify-content: center;
+    border: 2px solid #1e1e1e;
+    margin: 0px 10px;
+}
+
+.area--skills .skills .card--sql {
+    flex: 0.2;
+    display: flex;
+    justify-content: center;
+    border: 2px solid #1e1e1e;
+    margin: 0px 10px;
+}
 
 
+.area--skills .skills .card--php {
+    flex: 0.2;
+    display: flex;
+    justify-content: center;
+    border: 2px solid #1e1e1e;
+    margin: 0px 10px;
+}
+
+.card--html, .card--css,
+.card--bootstrap, .card--javascript,
+.card--sql, .card--php h3 {
+    font-size: 26px;
+    text-transform: uppercase;
+    padding: 5px 5px;
+}
