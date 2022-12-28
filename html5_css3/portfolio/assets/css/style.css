@@ -130,157 +130,63 @@ header .menu--contact li a:hover {
 }
 
 
+.default-padding {
+    color: #FFF;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
 .area--about {
     display: flex;
-    align-items: flex-start;
+    align-items: center;
     max-width: 1440px;
+    margin: auto;
+    background-color: #444;
+}
+
+.about--title {
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.about--desc {
+    font-size: 12px;
+    font-weight: 600;
+    color: #ccc;
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+
+.about--title .about--desc {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+
+.area--about .about--body {
+    max-width: 1140px;
     margin: auto;
 }
 
-.area--about .about {
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-color: #e9e9e9;
-    height: 300px;
-    border-right: 0.1px solid #777;
+.about--body {
+    max-width: 1140px;
+    margin: auto;
 }
 
- .about--title h1 {
+.skills--items {
     display: flex;
-    flex-direction: column;
-    height: 40px;
-    margin-top: 8px;
-    color: #444;
 }
 
-.area--about .about .about--desc {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 5px 12px;
-    margin: 0px 20px;
-    height: 167px;
-    text-align: justify;
-}
-
-.area--about--btn  {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    height: 42px;
-    width: 238px;
-    margin-right: 62px;
-}
-
-
-.about--btn button  {
-    display: flex;
-    border: 1px solid #FFF;
-    border-radius: 4px 4px 4px 4px;
-    color: #FFF;
-    background-color: #282a36;
-    font-size: 12px;
-    text-decoration: none;
-    text-transform: uppercase;
-    width: 120px;
-    padding: 10px 12px;
-}
-
-.about--btn button:hover  {
-    display: flex;
-    border: 1px solid #FF2021;
-    border-radius: 2px 2px 2px 2px;
-    color: #FF2021;
-    background-color: #282a36;
-    font-size: 12px;
-    text-decoration: none;
-    text-transform: uppercase;
-    width: 120px;
-    padding: 10px 12px;
-}
-
-
-.area--about .area--skills {
+.skill {
     flex: 3;
-    display: flex;
-    align-items: flex-start;
-    height: 300px;
-    /* background-color: #282a36; */
-    
+    text-align: center;
+    padding: 10px;
+    border-left: 1px solid #ccc;
 }
 
-
-
-.area--skills .skills {
-    flex: 0.7;
-    display: flex;
-    align-items: flex-start;
-    border: 2px solid #FF2021;
-    height: 276px;
-    padding: 30px 8px;
-    margin: 12px 20px;
-
+.skills p {
+    margin-top: 10px;
+    font-size: 13px;
+    color: #ccc;
 }
 
-.area--skills .skills .card--html {
-    flex: 0.4;
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    border: 2px solid #1e1e1e;
-    margin: 0px 10px;
-    height: 220px;
-}
-
-
-.area--skills .skills .card--css {
-    flex: 0.4;
-    display: flex;
-    justify-content: center;
-    border: 2px solid #1e1e1e;
-    margin: 0px 10px;
-}
-
-.area--skills .skills .card--bootstrap {
-    flex: 0.4;
-    display: flex;
-    justify-content: center;
-    border: 2px solid #1e1e1e;
-    margin: 0px 10px;
-}
-
-.area--skills .skills .card--javascript {
-    flex: 0.2;
-    display: flex;
-    justify-content: center;
-    border: 2px solid #1e1e1e;
-    margin: 0px 10px;
-}
-
-.area--skills .skills .card--sql {
-    flex: 0.2;
-    display: flex;
-    justify-content: center;
-    border: 2px solid #1e1e1e;
-    margin: 0px 10px;
-}
-
-
-.area--skills .skills .card--php {
-    flex: 0.2;
-    display: flex;
-    justify-content: center;
-    border: 2px solid #1e1e1e;
-    margin: 0px 10px;
-}
-
-.card--html, .card--css,
-.card--bootstrap, .card--javascript,
-.card--sql, .card--php h3 {
-    font-size: 26px;
-    text-transform: uppercase;
-    padding: 5px 5px;
-}
