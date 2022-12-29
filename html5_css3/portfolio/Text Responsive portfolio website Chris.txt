@@ -1,6 +1,6 @@
 ========== HEADER ==========
 .nav__logo
-Chris
+Luan
 
 .nav__link
 Home - Skills - Qualification - Services - Projects - Contact
@@ -8,9 +8,9 @@ Home - Skills - Qualification - Services - Projects - Contact
 
 ========== HOME ==========
 .home__title
-Hi, I’m Chris <br>
-Frontend Developer <br>
-Based In Perú <br>
+Hi, I’m Luan Carminatti <br>
+Freelancer Developer <br>
+From Brazil <br>
 
 .home__social
 https://www.linkedin.com/
@@ -18,31 +18,13 @@ https://github.com/
 https://dribbble.com/
 
 .home__info-title
-BIOGRAPHY
+ABOUT
+PROJECTS
 CONTACT
 SERVICES
-YEARS OF EXPERIENCE
-COMPLETED PROJECTS
-COMPANIES WORKED
+
 
 .home__info-description .home__info-number
-Hi, I'm Chris, Frontend Developer.
-Passionate about designing beautiful web
-interfaces. Based in Perú.
-
-Lima, Perú <br>
-chrismayer@email.com <br>
-+51 9876543210 <br>
-
-Website Design <br>
-UI/UX Design <br>
-Animation <br>
-
-08+
-
-24+
-
-07+
 
 
 ========== SKILLS ==========
