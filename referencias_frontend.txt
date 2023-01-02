@@ -46,14 +46,17 @@ Font Awesome
 Heroicons
 Iconsvg
 Icons8 Line Awesome
-Icons8
+Icons8 1x
 Shape
 Flaticon
 Bootstrap icons
-devicon
+devicon (icones de frameworks, linguagens) dps vou precisar
 phosphor icons
 Ionic IO
+
+
 🎈Extensões para o seu navegador
+
 GoFullPage - Capture uma captura de tela de sua página atual.
 Web Developer - Um conjunto enorme de funcionalidades que te ajudam no processo de desenvolvimento.
 React Developer Tools - debug de apps que utilizam ReactJS, e permite verificar componentes, suas props, seus hooks e seus componentes children.
@@ -64,6 +67,7 @@ CSS Peeper - Mostra informações da página e não só também mostra as cores 
 WhatFont - Mostra as propriedades tipograficas(fontes, tamanho da fonte e etc) dos elementos selecionados no site.
 Responive Viewer - Mostra várias telas do seu site de uma vez, testa a rensponsividade do site.
 JSON Viewer - Mostras as respostas JSON no navegador
+
 🎈Banco de imagens gratuitos
 DrawKIT
 Pixabay
@@ -91,7 +95,9 @@ Wikimedia Commons
 Morguefile
 Lukas Zadam
 bgjar
+
 🎈Geradores de Paleta de cores
+
 Ui gradiente
 Couleur
 Colors and Fonts
