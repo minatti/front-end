@@ -1,4 +1,3 @@
-// didática complicada, vou anotar uns pontos..
 // 1. definimos um nome da função o mais sugestivo possível
 // 2. passamos o parametro ao declarar a função (sobrenome)
 // 3. dentro da função concatenamos o nome com o sobrenome
