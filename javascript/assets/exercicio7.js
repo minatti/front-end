@@ -22,5 +22,4 @@ carros.push('Volvo');
 
 console.log(carros)
 
-
 console.log(`4. itens no array: ${carros.length}`);
