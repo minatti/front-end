@@ -10,10 +10,11 @@ function adicionar(e) {
         const newLi = document.createElement('li');
         newLi.innerText = input.value;
         ul.append(newLi);
+        input.value = '';
 
     }
 
 }
 
 const input = document.querySelector('input');
-input.addEventListener('keypress', adicionar);
+input.addEventListener('keyup', adicionar);
