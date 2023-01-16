@@ -18,7 +18,13 @@ let pessoa = {
 
 // Desconstruindo ...
 
-let {nome, idade, social:{instagram:{url, seguidores}}} = pessoa;
+// let {nome, idade, social:{instagram:{url, seguidores}}} = pessoa;
+// console.log(nome, idade, url,seguidores);
 
+function pegarNomeCompleto({nome, sobrenome = 'Silva', social:{instagram: {url:instagram}}}) {
+    
+    return `${nome} ${sobrenome} (Siga em ${instagram})`;
 
-console.log(nome, idade, url,seguidores);
+}
+
+console.log(pegarNomeCompleto(pessoa));
