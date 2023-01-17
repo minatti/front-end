@@ -1,3 +1,4 @@
+// Operador Rest sendo aplicado no ...info
 function adicionarInfo(info){
 
     let newInfo = {
