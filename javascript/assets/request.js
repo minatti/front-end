@@ -1,4 +1,3 @@
-
 const request = () => {
     let url = 'https://jsonplaceholder.typicode.com/posts';
 
