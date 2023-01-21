@@ -5,10 +5,44 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hellou</title>
+    <!-- <style>
+        .posts {
+            display: block;
+            width: 100px;
+            height: 200px;
+            padding: 5px 5px;
+        }
+        input {
+            margin: 4px 6px;
+            padding: 10px 12px;
+        }
+        textarea {
+            width: 193px;
+            height: 20px;
+            margin-left: 5px;
+        }
+
+    </style> -->
 </head>
 <body>
-    <button type="submit" id="request">req post</button>
-    <button id="inserir">i post</button>
-<script src="assets/requestWithAsync.js"></script>
+    <div class="postArea">
+        <fieldset>
+            <h1>Blog fake</h1>
+            <div>
+                <input type="text" name="title" placeholder="title">
+            </div>
+            <div>
+                <textarea name="txtPost" placeholder="Digite seu post"></textarea>
+            </div>
+            <div>
+                <button id="inserir">inserir post</button>
+            </div>
+        </fieldset>    
+    </div>
+    
+    <div class="posts">
+
+     </div>
+<script src="assets/miniBlog.js"></script>
 </body>
 </html>
