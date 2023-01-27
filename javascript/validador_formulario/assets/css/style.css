@@ -1,0 +1,79 @@
+.container {
+    max-width: 1140px;
+}
+
+.area-center-login {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* linha j = :horizontal a vertical */
+
+.area-form-login {
+    background-color: orange;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-width: 280px;
+    height: 450px;
+}
+
+
+.flexbox-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-input-usuario, .form-input-senha {
+    padding: 4px 20px;
+    margin: 8px 8px;
+    color: black;
+    background-color: steelblue;
+    outline: none;
+    resize: none;
+    border: 0;
+    
+}
+
+input::placeholder {
+    color: black;
+}
+
+
+
+.form-area-btn {
+    display: flex;
+    margin: 20px 30px;
+    padding: 0px 25px;
+}
+
+.form-btn-cad button {
+    display: block;
+    flex: 0.5px;    
+}
+.form-btn-canc button {
+    display: block;
+    flex: 0.5px;
+    margin:2px 50px;
+}
+
+
+
+
+.login-success {
+    margin: 16px 0px;
+    background-color: greenyellow;
+    width: 100%;
+    height: 10px;
+} 
+
+
+.login-error {
+    margin: 16px 0px;
+    background-color: darkred;
+    width: 100%;
+    height: 10px;
+}
