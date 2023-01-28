@@ -13,7 +13,7 @@ let validator = {
 
             if(check !== true) {
                 send=false;
-                validator.showError(input, error);
+                validator.showError(input, check);
                 //console.log(check);
             }
 
@@ -31,7 +31,7 @@ let validator = {
                 let txtEmpty = 'Campo não pode ser vazio.';
                 switch(rDetails[0]){
                     case 'required':
-                        if(input.value === '') {
+                        if(input.value == '') {
                             return txtEmpty;
 
                         }
@@ -45,11 +45,11 @@ let validator = {
         return true;   
     },
     showError:(input, error) => {
-        input.style.borderColor = '#FF0000';
+        input.style.borderColor = '#FF000';
         let errorElement = document.createElement('div');
         errorElement.classList.add('error');
         errorElement.innerHTML = error;
-
+        
         input.parentElement.insertBefore(errorElement, input.ElementSibling);
     },
     clearErrors:() => {
@@ -63,7 +63,8 @@ let validator = {
         }
     }
 
-};
+ };
+
     
 
 let form = document.querySelector('.validator');

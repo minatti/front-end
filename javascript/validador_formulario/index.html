@@ -5,40 +5,34 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <met name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/css/style.css">
-    <title>Enter Here</title>
+    <title>Validator</title>
 </head>
 <body>
-    <header>
-        <nav>
-
-        </nav>
-    </header>
-    <main>
-        <div class="container">
-            <div class="area-center-login">
-                <div class="title-login"><h3>Formularizinho abaixo</h3></div>
-                    <div class="area-form-login">
-                        <form method="POST" class="validator">
-                            <div class="flexbox-column">
-                                <input id="usuario" class="form-input-usuario" type="text" name="usuario" placeholder="Usuário" data-rules="required|min=4">
-                                <input id="senha" class="form-input-senha" type="password" name="senha" placeholder="Senha">
-                            <div class="form-area-input">
-                                    <input id="inputCad" class="form-input-cad" type="submit" name="inputCad">Cadastrar</button>
-                                    <input id="inputCanc" class="form-input-canc" type="cancel" name="inputCanc">Cancelar</button>
-                            </div>                             
-                            </div>
-                            <div class="login-success">
-                                
-                            </div>
-                                <i>Icone de sucesso</i>
-                        </form>
-                    </div>
-            </div>
+    <div class="screen">
+        <div class="leftside">
+            <img src="assets/images/" alt="">
         </div>
-    </main>
-    <footer>
+        <div class="rightside">
+            <h1>crie uma conta</h1>
+            <form action="#" method="post" class="validator">
+                <label for="">digite seu e-mail
+                    <input type="text" name="email" placeholder="" data-rules="required|min=4">
+                </label>
+                
+                <label for="">digite sua senha
+                    <input type="password" name="password" placeholder="" data-rules="required">
+                </label>
+                <label for="">
+                    <input type="submit" name="cad" value="Cadastrar">
+                </label>         
+            </form>
+            <div class="conta">
+                Já tem uma conta? <a href="#">Faça o login</a>
+            </div>
+        </div>        
+    </div>
 
-    </footer>
     <script src="assets/backend.js"></script>
+
 </body>
 </html>
