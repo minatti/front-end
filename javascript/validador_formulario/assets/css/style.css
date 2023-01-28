@@ -27,11 +27,12 @@
     flex-direction: column;
 }
 
+
 .form-input-usuario, .form-input-senha {
     padding: 4px 20px;
     margin: 8px 8px;
     color: black;
-    background-color: steelblue;
+    background-color: FFF;
     outline: none;
     resize: none;
     border: 0;
@@ -43,24 +44,23 @@ input::placeholder {
 }
 
 
-
-.form-area-btn {
+.form-area-input {
     display: flex;
     margin: 20px 30px;
     padding: 0px 25px;
 }
 
-.form-btn-cad button {
+
+.form-input-cad button {
     display: block;
     flex: 0.5px;    
 }
-.form-btn-canc button {
+
+.form-input-canc button {
     display: block;
     flex: 0.5px;
     margin:2px 50px;
 }
-
-
 
 
 .login-success {

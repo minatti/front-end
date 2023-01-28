@@ -17,27 +17,28 @@
         <div class="container">
             <div class="area-center-login">
                 <div class="title-login"><h3>Formularizinho abaixo</h3></div>
-                <div class="area-form-login">
-                    <form method="POST">
-                        <div class="flexbox-column">
-                            <input id="usuario" class="form-input-usuario" type="text" name="usuario" placeholder="Usuário">
-                            <input id="senha" class="form-input-senha" type="password" name="senha" placeholder="Senha">
-                           <div class="form-area-btn">
-                                <button id="btnCad" class="form-btn-cad" type="submit" name="btnCad">Cadastrar</button>
-                                <button id="btnCanc" class="form-btn-canc" type="cancel" name="btnCanc">Cancelar</button>
-                           </div>                             
-                        </div>
-                        <div class="login-success">
-                            
-                        </div>
-                            <i>Icone de sucesso</i>
-                    </form>
-                </div>
+                    <div class="area-form-login">
+                        <form method="POST" class="validator">
+                            <div class="flexbox-column">
+                                <input id="usuario" class="form-input-usuario" type="text" name="usuario" placeholder="Usuário" data-rules="required|min=4">
+                                <input id="senha" class="form-input-senha" type="password" name="senha" placeholder="Senha">
+                            <div class="form-area-input">
+                                    <input id="inputCad" class="form-input-cad" type="submit" name="inputCad">Cadastrar</button>
+                                    <input id="inputCanc" class="form-input-canc" type="cancel" name="inputCanc">Cancelar</button>
+                            </div>                             
+                            </div>
+                            <div class="login-success">
+                                
+                            </div>
+                                <i>Icone de sucesso</i>
+                        </form>
+                    </div>
             </div>
         </div>
     </main>
     <footer>
 
     </footer>
+    <script src="assets/backend.js"></script>
 </body>
 </html>
