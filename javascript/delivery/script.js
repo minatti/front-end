@@ -1,16 +1,16 @@
 // o que é map??
 // Manipulação de Elementos 
-const c = (el)=>document.querySelector(el);
-const cs = (el)=>document.querySelectorAll(el);
+const query = (el)=>document.querySelector(el);
+const queryAll = (el)=>document.querySelectorAll(el);
 
 
 pizzaJson.map((item, index)=>{
     console.log(item);
-    let pizzaItem = c('.models .pizza-item').cloneNode(true);
+    let pizzaItem = query('.models .pizza-item').cloneNode(true);
     // preencher as informações em pizzaItem
 
     //append para adicionar
-    cs('pizza-area').append(pizzaItem);
+    queryAll('pizza-area').append(pizzaItem);
     for(let i;i<pizzaItem.length;i++) {
 
     }
