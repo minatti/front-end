@@ -8,6 +8,7 @@ const cs = (el)=>document.querySelectorAll(el);
 pizzaJson.map((item, index)=>{
     //console.log(item);
     let pizzaItem = c('.models .pizza-item').cloneNode(true);
+    pizzaItem.setAttribute('data-key', index);
     // preencher as informações em pizzaItem
     pizzaItem.querySelector('.pizza-item--img img').src = item.img;
     pizzaItem.querySelector('.pizza-item--price').innerHTML = `R$ ${item.price.toFixed(2)}`;
@@ -15,8 +16,15 @@ pizzaJson.map((item, index)=>{
     pizzaItem.querySelector('.pizza-item--desc').innerHTML = item.description;
     pizzaItem.querySelector('a').addEventListener('click', (e)=>{
         e.preventDefault(); //prevenindo a ação padrão
-
+        //colosest pega o item da tag anterior
+        let key = e.target.closest('.pizza-item').getAttribute('data-key');
         // console.log("Clicou na pizza!");
+        console.log(`Data ${pizzaJson[key]}`);
+
+        c('.pizzaBig img').src = pizzaJson[key].img;    
+        c('.pizzaInfo h1').innerHTML = pizzaJson[key].name;
+        c('.pizzaInfo--desc').innerHTML = pizzaJson[key].description;
+        c('.pizzaInfo--price').innerHTML = pizzaJson[key].price;
         // default pizzaWindowArea esta display none para não aparecer;
         // para aparecer na tela vamos alterar este comportamento
          c('.pizzaWindowArea').style.opacity = 0;
