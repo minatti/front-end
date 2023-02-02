@@ -1,5 +1,7 @@
 // o que é map??
 // Manipulação de Elementos 
+let modalQt = 1;
+
 const c = (el)=>document.querySelector(el);
 const cs = (el)=>document.querySelectorAll(el);
 
@@ -16,8 +18,8 @@ pizzaJson.map((item, index)=>{
     pizzaItem.querySelector('.pizza-item--desc').innerHTML = item.description;
     pizzaItem.querySelector('a').addEventListener('click', (e)=>{
         e.preventDefault(); //prevenindo a ação padrão
-        //colosest pega o item da tag anterior
         let key = e.target.closest('.pizza-item').getAttribute('data-key');
+        modalQt = 1;
         // console.log("Clicou na pizza!");
         console.log(`Data ${pizzaJson[key]}`);
 
@@ -25,6 +27,20 @@ pizzaJson.map((item, index)=>{
         c('.pizzaInfo h1').innerHTML = pizzaJson[key].name;
         c('.pizzaInfo--desc').innerHTML = pizzaJson[key].description;
         c('.pizzaInfo--price').innerHTML = pizzaJson[key].price;
+        c('.pizzaInfo--size.selected').classList.remove('.pizzaInfo--size.selected');
+        cs('.pizzaInfo--sizes').forEach((size, sizeIndex)=>{
+    
+            if(sizeIndex == 2) {
+                size.classList.add('selected');    
+            }
+    
+            //console.log(size);
+            //console.log(pizzaJson[key].sizes[sizeIndex]);
+            size.querySelectorAll('span').innerHTML = pizzaJson[key].sizes[sizeIndex];
+
+        });
+
+        cs('.pizzaInfo--qt').innerHTML = modalQt;
         // default pizzaWindowArea esta display none para não aparecer;
         // para aparecer na tela vamos alterar este comportamento
          c('.pizzaWindowArea').style.opacity = 0;
