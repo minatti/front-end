@@ -1,6 +1,9 @@
 // o que é map??
 // Manipulação de Elementos 
+let cart = [];
 let modalQt = 1;
+let modalKey = 0;
+
 const c = (el)=>document.querySelector(el);
 const cs = (el)=>document.querySelectorAll(el);
 
@@ -20,6 +23,7 @@ pizzaJson.map((item, index)=>{
         e.preventDefault(); //prevenindo a ação padrão
         let key = e.target.closest('.pizza-item').getAttribute('data-key');
         modalQt = 1;
+        modalKey = key;
         
         // console.log("Clicou na pizza!");
         //console.log(`Data ${pizzaJson[key]}`);
@@ -46,9 +50,9 @@ pizzaJson.map((item, index)=>{
          }, 200);
          c('.pizzaWindowArea').style.opacity = 1;
     })
-    //append para adicionar
+    
     c('.pizza-area').append(pizzaItem);
-    console.log('Pizza area append item');
+
 
 });
 
@@ -93,5 +97,16 @@ cs('.pizzaInfo--size').forEach((size, sizeIndex)=>{
    });
 });
 
+c('.pizzaInfo--addButton').addEventListener('click', ()=>{
+    
+    let size = parseInt(c('.pizzaInfo--size.selected').getAttribute('data-key'));
+    
+    cart.push({
+        id:pizzaJson[modalKey].id,
+        size,
+        qt:modalQt
+    });
 
+    closeModal();
+});
 
