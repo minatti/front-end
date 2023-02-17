@@ -14,7 +14,14 @@ const comecarEtapa = ()=>{
     let numeroHtml = '';
 
     for(let i=0;i<etapa.numeros;i++){
-        numeroHtml +='<div class="numero"></div>';
+        if(i==0) {
+            numeroHtml +='<div class="numero pisca"></div>';    
+        } else {
+            numeroHtml +='<div class="numero"></div>';
+        }
+        
+        //console.log(numeroHtml);
+        
     }
 
     voto.style.display = 'none';
@@ -32,17 +39,18 @@ const atualizaInterface = ()=>{
 
 const clicou = (n)=>{
     let elNumero = document.querySelector('.numero.pisca');
-    if(elNumero !== null) {
+    if(elNumero !== null){
         elNumero.innerHTML = n;
-        numero = '${numero}${n}';
+        numero = `${numero}${n}`;
 
         elNumero.classList.remove('pisca');
-        if(elNumero.nextElementSibling !== null) {
+        if(elNumero.nextElementSibling !== null){
             elNumero.nextElementSibling.classList.add('pisca');
         } else {
             atualizaInterface();
         }
     }
+
 }
 
 
