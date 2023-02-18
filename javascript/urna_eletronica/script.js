@@ -33,7 +33,36 @@ const comecarEtapa = ()=>{
 }
 
 const atualizaInterface = ()=>{
-    alert('Finalizou de digitar o voto');
+    let etapa = etapas[etapaAtual];
+    let candidato = etapa.candidatos.filter((item)=>{
+        if(item.numero === numero){
+            return true;
+        } else {
+            return  false;
+        }
+    });
+
+    console.log("Candidato", candidato);
+    if(candidato.length > 0){
+        candidato = candidato[0];
+        voto.style.display = 'block';
+        aviso.style.display = 'block';
+        descricao.innerHTML = `Nome: ${candidato.nome}<br/>Partido: ${candidato.partido}`;
+
+        let fotosHtml = '';
+
+
+        for(let i in candidato.fotos){
+            fotosHtml += `<div class="d-1-image"><img src="images/${candidato.fotos[i].url}" alt="Prefeito" />${candidato.fotos[i].legenda}</div>`;
+            
+        }
+
+        lateral.innerHTML = fotosHtml;
+    } else {
+        voto.style.display = 'block';
+        aviso.style.display = 'block';
+        descricao.innerHTML = '<div class="aviso--grande pisca">VOTO NULO</div>';
+    }
 
 }
 
@@ -55,11 +84,13 @@ const clicou = (n)=>{
 
 
 const branco = ()=>{
-    alert("Clicou em BRANCO!");
+    voto.innerHTML = 'BRANCO';
+    descricao.innerHTML = '<div class="voto--branco pisca">VOTO EM BRANCO</div>';
+
 }
 
 const corrige = ()=>{
-    alert("Clicou em CORRIGE!");
+   comecarEtapa();
 }
 
 const confirma = ()=>{
