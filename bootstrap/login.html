@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Login</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/login-style.css">
+  </head>
+  <body>
+    <main class="bg-dark">
+      <div class="area--container">
+        <form class="credencial">
+          <div class="container">
+            <div class="row justify-content-center">
+              <div class="area-user">
+                <div class="icon-user">
+                  <img src="assets/imgs/icons8-user-100-dark.png" alt="User Default">
+                </div>
+                <h3>Login</h3>
+              </div>
+              <div class="col-6">
+                <div class="form-floating">
+                  <input id="username" type="text" class="form-control"  placeholder="nome_sobrenome" required>
+                  <label for="lbUser">Usuário</label>
+                  <div id="error-user" class="msg-error">
+                    
+                  </div>
+                </div>
+                <div class="form-floating">
+                  <input id="password" type="password" class="form-control"  placeholder="senha" required>
+                  <label for="lbPwd">Senha</label>
+                  <div id="error-pass" class="msg-error">
+                    
+                  </div>
+                </div>
+                <div id="error" class="msg-error">
+                    
+                </div>
+                <div id="errorNull" class="msg-error">
+                    
+                </div>
+                <input id="idEntrar" class="btn btn-success w-100" type="submit" value="Entrar" required>
+              </div>
+            </div>
+          </div>        
+        </form>
+      </div>
+    </main>
+    <script src="assets/js/login.js"></script>
+  </body>
+</html>
