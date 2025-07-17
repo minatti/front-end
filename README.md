@@ -1,19 +1,17 @@
-### 🐱‍👤 STACK OF STUDIES 🐱‍👤
+### 🐱‍👤 Lista dos tópicos para estudar e práticar 🐱‍👤
 
-Initializing...
 
 - HTML5/CSS3 ✔
-- BOOTSTRAP  (87%)
-- JAVASCRIPT ✔
-- NEXT: (TYPESCRIPT, NODEJS, REACT)
+- BOOTSTRAP (87%)
+- JAVASCRIPT ✔ 
+- TYPESCRIPT ✔
+- Próximos: React, Vue, Angular ( entender como funciona com um projeto pessoal)
 
-### HAVE A THREE DIVISIONS BRANCHES
+### Esta organizado por três branches
 
-Git checkout ...
+Use o comando git checkout nome da branch "" para alternar entre a branch.
 
 - MAIN (nothing)
 - STUDENT
 - DEVELOPMENT
 
-
-❤ LOVE TECHNOLOGY
