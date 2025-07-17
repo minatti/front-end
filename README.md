@@ -5,7 +5,7 @@
 - BOOTSTRAP (87%)
 - JAVASCRIPT ✔ 
 - TYPESCRIPT ✔
-- Próximos: React, Vue, Angular ( entender como funciona com um projeto pessoal)
+- Próximos: React, Vue, Angular (entender como funciona com um projeto pessoal)
 
 ### Esta organizado por três branches
 
