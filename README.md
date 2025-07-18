@@ -1,4 +1,4 @@
-### 🐱‍👤 Lista dos tópicos para estudar e práticar 🐱‍👤
+### 🐱‍👤 Lista dos tópicos de estudo e prático 🐱‍👤
 
 
 - HTML5/CSS3 ✔
@@ -9,7 +9,7 @@
 
 ### Esta organizado por três branches
 
-Use o comando git checkout nome da branch "" para alternar entre a branch.
+Use o comando git checkout nome da branch "development" para alternar entre a branch.
 
 - MAIN (nothing)
 - STUDENT
